@@ -1,0 +1,8 @@
+{
+  "appId": "id.luxurys.rapikeuangan",
+  "appName": "Rapi Keuangan",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

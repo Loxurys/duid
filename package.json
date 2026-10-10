@@ -1,0 +1,29 @@
+{
+  "name": "rapi-keuangan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build:web": "node scripts/copy-web.mjs",
+    "cap:sync": "npm run build:web && cap sync android"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loxurys/duid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Loxurys/duid/issues"
+  },
+  "homepage": "https://github.com/Loxurys/duid#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/core": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
+  }
+}
